@@ -76,3 +76,21 @@ if __name__ == "__main__":
     print(f"{type(double_cheese).__name__}: Cost: {double_cheese.get_cost()}")
     double_cheese.show_pizza()
     
+
+# OUTPUT:
+# Pizza: Cost: 250
+# ==========
+
+# PeppyPaneer: Cost: 350
+# ##########
+# ==========
+
+# Cheese: Cost: 500
+# ~~~~~~~~~~
+# ##########
+# ==========
+
+# Cheese: Cost: 550
+# ~~~~~~~~~~
+# ~~~~~~~~~~
+# ==========
