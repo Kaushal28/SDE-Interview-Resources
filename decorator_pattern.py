@@ -58,39 +58,39 @@ if __name__ == "__main__":
     # Simple pizza
     pizza_base = Pizza()
 
-    print(f"{type(pizza_base).__name__}: Cost: {pizza_base.get_cost()}")
+    print(f"Basic Pizza: Cost: {pizza_base.get_cost()}")
     pizza_base.show_pizza()
 
     # peppy paneer only
     peppy_paneer = PeppyPaneer(pizza_base)
-    print(f"{type(peppy_paneer).__name__}: Cost: {peppy_paneer.get_cost()}")
+    print(f"Peppy Paneeer: Cost: {peppy_paneer.get_cost()}")
     peppy_paneer.show_pizza()
 
     # peppy paneer with cheese
     peppy_paneer_cheese = Cheese(peppy_paneer)
-    print(f"{type(peppy_paneer_cheese).__name__}: Cost: {peppy_paneer_cheese.get_cost()}")
+    print(f"Pappy Paneer with Cheese!: Cost: {peppy_paneer_cheese.get_cost()}")
     peppy_paneer_cheese.show_pizza()
 
     # Double cheese pizza!!
     double_cheese = Cheese(Cheese(pizza_base))
-    print(f"{type(double_cheese).__name__}: Cost: {double_cheese.get_cost()}")
+    print(f"Double Cheese!!: Cost: {double_cheese.get_cost()}")
     double_cheese.show_pizza()
     
 
 # OUTPUT:
-# Pizza: Cost: 250
+# Basic Pizza: Cost: 250
 # ==========
 
-# PeppyPaneer: Cost: 350
+# Peppy Paneeer: Cost: 350
 # ##########
 # ==========
 
-# Cheese: Cost: 500
+# Pappy Paneer with Cheese!: Cost: 500
 # ~~~~~~~~~~
 # ##########
 # ==========
 
-# Cheese: Cost: 550
+# Double Cheese!!: Cost: 550
 # ~~~~~~~~~~
 # ~~~~~~~~~~
 # ==========
