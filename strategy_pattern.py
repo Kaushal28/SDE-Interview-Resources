@@ -14,6 +14,8 @@
 # (e.g. for rendering on tablets), the core app. code would not required to
 # be changed.
 
+# https://stackoverflow.com/a/1710885/5353128
+
 
 from __future__ import annotations
 
