@@ -68,4 +68,95 @@ class HTMLPrinter(Printer):
 
 ## 2. Open/Closed principle [Open for Extension/Closed for Modification]
 - Software entities (classes, functions, modules etc.) should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
-- 
+- Entities should be designed in such a way that when a new functionality is needed, we should not modify our existing code but rather write new code that will be used by existing code.
+- Consider an example of shape classes and their area calculator class.
+
+```python
+class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+    
+    @property
+    def width(self):
+        return self._width
+    
+    @property
+    def height(self):
+        return self._height
+
+
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._redius
+
+
+class AreaCalculator:
+    """
+    Calculates the total area from collection of objects.
+    """
+    def area(self, shapes):
+        total_area = 0
+        for shape in shapes:
+            if isinstance(shape, Rectangle):
+                total_area += shape.width * shape.height
+            elif isinstance(shape, Circle):
+                total_area += 3.14 * shape.radius * shape.radius
+        return total_area
+```
+
+- Considering the above design, if we need to add two more shapes (e.g. triangle and hexagone), then `AreaCalculator` class must be changed. This is violating the Open/Closede principle. This design in not closed for modification. Each new requirement of adding new shape would require changes in existing code.
+- To fix this, we could move the area calculation logic to respective shapes so that the `AreaCalculator` class does not require any change in case of adding new shapes in our system.
+
+```python
+class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+    
+    @property
+    def width(self):
+        return self._width
+    
+    @property
+    def height(self):
+        return self._height
+    
+    def area(self):
+        return self.height * self.width
+
+
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._redius
+    
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+
+class AreaCalculator:
+    """
+    Calculates the total area from collection of objects.
+    """
+    def area(self, shapes):
+        total_area = 0
+        for shape in shapes:
+            total_area += shape.area()
+        return total_area
+```
+- Now, in the above design, adding new shapes is very easy.
+
+## 3. Liskov Substitution principle
+
+---
+### References:
+- http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
+- https://www.baeldung.com/solid-principles
