@@ -282,12 +282,9 @@ manager.add_member(Tester())
 ```
 - Now, `Manager` class depends on `Employee` abstraction and hence does not violate the DIP. Also, this decoupled and simplified the code in `Manager` class.
 
-
-
 ---
 ### References:
 - http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
 - https://www.baeldung.com/solid-principles
 - https://stackoverflow.com/q/56860/5353128
 - https://www.geeksforgeeks.org/dependecy-inversion-principle-solid/
-- 
