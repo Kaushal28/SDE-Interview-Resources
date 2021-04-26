@@ -66,7 +66,7 @@ class HTMLPrinter(Printer):
 ```
 - Now these classes follow the SRP. Both `Book` and `Printer` have a single responsibility.
 
-## 2. Open/Closed principle [Open for Extension/Closed for Modification]
+## 2. Open/Closed Principle [Open for Extension/Closed for Modification]
 - Software entities (classes, functions, modules etc.) should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
 - Entities should be designed in such a way that when a new functionality is needed, we should not modify our existing code but rather write new code that will be used by existing code.
 - Consider an example of shape classes and their area calculator class.
@@ -154,9 +154,40 @@ class AreaCalculator:
 ```
 - Now, in the above design, adding new shapes is very easy.
 
-## 3. Liskov Substitution principle
+## 3. Liskov Substitution Principle (LSP)
+
+- Liskov Substitution principle states that if `S` is a subtype of `T`, then objects of type `T` may be replaced with objects of type `S`. That also means child classes should never break the parent class' type definitions.
+- Objects of child class should be used in place of parent class objects because child class should only extend the properties/behaviour of its parent and should not modify it.
+- For example, deriving `Square` class from `Rectangle` violates the above definition because objects of rectangle can set it's width and height independently. So we can not replace `Rectangle` objects with `Square` objects and hence the abstraction of having `Square` inherit from `Rectangle` is a bad one.
+- Here is another example: Almost all birds can fly except Ostrich. So if we define `Bird` class as following, it'll violate the LSP.
+
+```python
+class Bird:
+    def fly(self):
+        pass
+```
+- Because, if we have to define class `Ostrich`, it'll have to implement `fly()` method even if it's not required in case of `Ostrich`. So, a meaningful design which doesn't violate the LSP can be given as following:
+
+```python
+class Bird:
+    pass
+
+class FlyingBirds(Bird):
+    def fly(self):
+        pass
+
+class Duck(FlyingBirds):
+    def fly(self):
+        pass
+
+class Ostrich(Bird):
+    pass
+```
+
+- Objects of class `Ostrich` can now be used in place of objects of class `Bird`. Same goes for classes `FlyingBirds` and `Duck`.
 
 ---
 ### References:
 - http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
 - https://www.baeldung.com/solid-principles
+- https://stackoverflow.com/q/56860/5353128
