@@ -5,8 +5,9 @@
 
 ## Use SQL when
 - You don't expect too many changes going forward. Limited amounts of data volume with limited data types and static data structure.
-- You want to ensure ACID properties for all your transactions
+- You want to ensure ACID properties for all your transactions (ACID properties/transactions are not ensured across multiple documents in NoSQL)
 - There are considerable amount of transactions in your application. SQL databases are mature and well suited for executing heavy duty and complex transactions.
+- high amount of data consistency is required
 - better community support is required to ensure less challenges at the time of development
 
 ## Use NoSQL when
@@ -14,4 +15,5 @@
 - 100% data consistency is not that much important (for example social media applications) as compared to data availability and scaling.
 - you have huge amounts of data
 - horizontal scaling is required because of high application usage.
-- Faster and comparatively easier development
+- faster and comparatively easier development
+- faster queries are required because data in NoSQL databases is typically stored in a way that is optimized for queries. The rule of thumb when you use MongoDB is Data is that is accessed together should be stored together. Queries typically do not require joins, so the queries are very fast as compared to normalized SQL tables.
