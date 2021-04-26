@@ -289,3 +289,5 @@ manager.add_member(Tester())
 - http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
 - https://www.baeldung.com/solid-principles
 - https://stackoverflow.com/q/56860/5353128
+- https://www.geeksforgeeks.org/dependecy-inversion-principle-solid/
+- 
