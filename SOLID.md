@@ -7,7 +7,8 @@
 - D - Dependency Inversion
 
 ## 1. Single Responsibility Principle (SRP)
-![SRP](https://i.imgur.com/olWf6e1.jpg)
+<p align="center"><img src="https://i.imgur.com/olWf6e1.jpg" width="550" height="550"></p>
+
 - Any class should have only one responsibility. That also means a class should have only one reason to change. This makes classes easier to **test** and also helps **decoupling** the code.
 - Example includes the objects that can print/save themselves. In such cases, it's easier to violate SRP.
 
@@ -68,7 +69,8 @@ class HTMLPrinter(Printer):
 - Now these classes follow the SRP. Both `Book` and `Printer` have a single responsibility.
 
 ## 2. Open/Closed Principle [Open for Extension/Closed for Modification]
-![OC](https://i.imgur.com/0RZcEgl.jpg)
+<p align="center"><img src="https://i.imgur.com/0RZcEgl.jpg" width="550" height="550"></p>
+
 - Software entities (classes, functions, modules etc.) should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
 - Entities should be designed in such a way that when a new functionality is needed, we should not modify our existing code but rather write new code that will be used by existing code.
 - Consider an example of shape classes and their area calculator class.
@@ -157,7 +159,8 @@ class AreaCalculator:
 - Now, in the above design, adding new shapes is very easy.
 
 ## 3. Liskov Substitution Principle (LSP)
-![LSP](https://i.imgur.com/hEYUuQN.jpg)
+<p align="center"><img src="https://i.imgur.com/hEYUuQN.jpg" width="550" height="550"></p>
+
 - Liskov Substitution principle states that if `S` is a subtype of `T`, then objects of type `T` may be replaced with objects of type `S`. That also means child classes should never break the parent class' type definitions.
 - Objects of child class should be used in place of parent class objects because child class should only extend the properties/behaviour of its parent and should not modify it.
 - For example, deriving `Square` class from `Rectangle` violates the above definition because objects of rectangle can set it's width and height independently. So we can not replace `Rectangle` objects with `Square` objects and hence the abstraction of having `Square` inherit from `Rectangle` is a bad one.
@@ -190,10 +193,12 @@ class Ostrich(Bird):
 
 
 ## 4. Interface Segregation Principle (ISP)
-![ISP](https://i.imgur.com/hTngExc.jpg)
+<p align="center"><img src="https://i.imgur.com/hTngExc.jpg" width="550" height="550"></p>
+
+- This means that larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
 
 ## 5. Dependency Inversion Principle (DIP)
-![DIP](https://i.imgur.com/khSbeDs.jpg)
+<p align="center"><img src="https://i.imgur.com/khSbeDs.jpg" width="550" height="550"></p>
 
 ---
 ### References:
