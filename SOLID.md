@@ -217,6 +217,73 @@ class Ostrich(Bird):
 ## 5. Dependency Inversion Principle (DIP)
 <p align="center"><img src="https://i.imgur.com/khSbeDs.jpg" width="550" height="550"></p>
 
+- The principle of Dependency Inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.
+- Effectively, the DIP reduces coupling between different pieces of code.
+- By also making the implementation depend on an interface, you get the possibility to choose at run-time which implementation is better suited for your particular environment.
+- Here is an example of dependency inversion principle. Consider a manager who manages multiple employees (developers, testers and graphic designers). To create a team under this manager, let's assume the following class:
+
+```python
+class Manager:
+    def __init__(self):
+        self.developers, self.designers, self.testers = [], [], []
+    
+    def add_developer(self, dev: Developer):
+        self.developers.append(dev)
+    
+    def add_designer(self, designer: Designer):
+        self.designers.append(designer)
+    
+    def add_tester(self, tester: Tester):
+        self.testers.append(tester)
+
+
+class Developer:
+    pass
+
+class Designer:
+    pass
+
+class Tester:
+    pass
+
+manager = Manager()
+manager.add_designer(Designer())
+manager.add_developer(Developer())
+manager.add_tester(Tester())
+```
+- This design will work but the problem with this design is that it's directly deals with concrete classes (see the `Manager` class) and because of this, adding new type of team member (e.g. devOps engineer) requires changes (more hard-coding) in manager class which violates open/closed principle as well as DIP. Also, the code is coupled.
+- This can be improved by creating one level of abstraction for various employees. So manager will depend on this abstraction instead of concrete employee implementations.
+
+```python
+class Employee:
+    pass
+
+class Manager(Employee):
+    def __init__(self):
+        self.members = []
+    
+    def add_member(self, member: Employee):
+        self.members.append(member)
+
+
+class Developer(Employee):
+    pass
+
+class Designer(Employee):
+    pass
+
+class Tester(Employee):
+    pass
+
+manager = Manager()
+manager.add_member(Designer())
+manager.add_member(Developer())
+manager.add_member(Tester())
+```
+- Now, `Manager` class depends on `Employee` abstraction and hence does not violate the DIP. Also, this decoupled and simplified the code in `Manager` class.
+
+
+
 ---
 ### References:
 - http://joelabrahamsson.com/a-simple-example-of-the-openclosed-principle/
