@@ -251,7 +251,7 @@ manager.add_designer(Designer())
 manager.add_developer(Developer())
 manager.add_tester(Tester())
 ```
-- This design will work but the problem with this design is that it's directly deals with concrete classes (see the `Manager` class) and because of this, adding new type of team member (e.g. devOps engineer) requires changes (more hard-coding) in manager class which violates open/closed principle as well as DIP. Also, the code is coupled.
+- This design will work but the problem with this design is that it directly deals with concrete classes (see the `Manager` class) and because of this, adding new type of team member (e.g. devOps engineer) requires changes (more hard-coding) in manager class which violates open/closed principle as well as DIP. Also, the code is coupled.
 - This can be improved by creating one level of abstraction for various employees. So manager will depend on this abstraction instead of concrete employee implementations.
 
 ```python
