@@ -28,4 +28,7 @@
 
 - This property ensures that multiple transactions can be occurred concurrently without leading to database inconsistencies.
 - Transactions occur independently without interference. Changes occurring in a particular transaction will not be visible to any other transaction until that particular change in that transaction is written to memory or has been committed.
-- This property ensures that the execution of transactions concurrently will result in a state that is equivalent to a state achieved if these were executed serially in some order. 
+- This property ensures that the execution of transactions concurrently will result in a state that is equivalent to a state achieved if these were executed serially in some order.
+
+## Durability
+- This property ensures that once the transaction has completed execution, the updates and modifications to the database are stored in and written to disk and they persist even if a system failure occurs. These updates now become permanent and are stored in non-volatile memory. The effects of the transaction, thus, are never lost.
