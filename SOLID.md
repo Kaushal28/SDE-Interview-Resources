@@ -195,7 +195,24 @@ class Ostrich(Bird):
 ## 4. Interface Segregation Principle (ISP)
 <p align="center"><img src="https://i.imgur.com/hTngExc.jpg" width="550" height="550"></p>
 
-- This means that larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
+- This means that larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them. Here is an example:
+
+```python
+class Bird:
+    pass
+
+class FlyingBirds(Bird):
+    def fly(self):
+        pass
+
+class Duck(FlyingBirds):
+    def fly(self):
+        pass
+
+class Ostrich(Bird):
+    pass
+```
+- As `Ostrich` can't fly, there is no need to implement `fly()` method for its objects. So we segregated the interfaces for Ostrich and other birds that can fly.
 
 ## 5. Dependency Inversion Principle (DIP)
 <p align="center"><img src="https://i.imgur.com/khSbeDs.jpg" width="550" height="550"></p>
