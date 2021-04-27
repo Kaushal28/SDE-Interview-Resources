@@ -4,4 +4,5 @@
 4. Difference between HTTP and HTTPS: https://www.geeksforgeeks.org/difference-between-http-and-https/
 5. What is API caching? and various API cache eviction techniques (LRU, LFU, FIFO etc.). How to invalidate stale cache? https://youtu.be/U3RkDLtS7uY
 6. Consistent Hashing: https://www.toptal.com/big-data/consistent-hashing
-7. 
+7. What is generator in Python?
+8. Difference between generators and iterators in Python?
