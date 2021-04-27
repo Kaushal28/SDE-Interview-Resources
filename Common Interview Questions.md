@@ -11,7 +11,7 @@
 11. What are python decorators? Write a simple decorator: https://stackoverflow.com/a/1594484/5353128
 12. How to choose between SQL and NoSQL databases for any application?
 13. OOP concepts with real life examples. https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
-14. SOLID Principles with examples.
+14. SOLID Principles with examples. https://github.com/Kaushal28/Design-Patterns/blob/main/SOLID%20Principles.md
 15. "is" keyword in Python. https://stackoverflow.com/a/133024/5353128
 16. What are list comprehension in Python? https://stackoverflow.com/a/34835952/5353128
 17. What is the difference between tuple and list in Python? https://stackoverflow.com/q/626759/5353128
