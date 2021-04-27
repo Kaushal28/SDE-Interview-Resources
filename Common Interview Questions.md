@@ -4,5 +4,15 @@
 4. Difference between HTTP and HTTPS: https://www.geeksforgeeks.org/difference-between-http-and-https/
 5. What is API caching? and various API cache eviction techniques (LRU, LFU, FIFO etc.). How to invalidate stale cache? https://youtu.be/U3RkDLtS7uY
 6. Consistent Hashing: https://www.toptal.com/big-data/consistent-hashing
-7. What is generator in Python?
-8. Difference between generators and iterators in Python?
+7. What is generator in Python?  https://stackoverflow.com/a/102632/5353128
+8. Difference between generators and iterators in Python? https://stackoverflow.com/q/2776829/5353128
+9. What is hashing? How Python's dict is implemented internally? https://stackoverflow.com/a/9022835/5353128
+10. What is docker? For what purposes have you used it?
+11. What are python decorators? Write a simple decorator: https://stackoverflow.com/a/1594484/5353128
+12. How to choose between SQL and NoSQL databases for any application?
+13. OOP concepts with real life examples. https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+14. SOLID Principles with examples.
+15. "is" keyword in Python. https://stackoverflow.com/a/133024/5353128
+16. What are list comprehension in Python? https://stackoverflow.com/a/34835952/5353128
+17. What is the difference between tuple and list in Python?
+18. 
