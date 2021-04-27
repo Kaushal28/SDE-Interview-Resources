@@ -17,5 +17,5 @@
 15. "is" keyword in Python. https://stackoverflow.com/a/133024/5353128
 16. What are list comprehension in Python? https://stackoverflow.com/a/34835952/5353128
 17. What is the difference between tuple and list in Python? https://stackoverflow.com/q/626759/5353128
-18. Python threads synchronization, concepts of semaphore, mutex, locks etc: http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/, https://stackoverflow.com/q/2332765/5353128, https://stackoverflow.com/q/34519/5353128, https://stackoverflow.com/q/16567958/5353128
+18. Python threads synchronization, concepts of semaphore, mutex, locks, queues etc.: http://www.laurentluce.com/posts/python-threads-synchronization-locks-rlocks-semaphores-conditions-events-and-queues/, https://stackoverflow.com/q/2332765/5353128, https://stackoverflow.com/q/34519/5353128, https://stackoverflow.com/q/16567958/5353128
 19. 
