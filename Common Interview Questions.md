@@ -14,5 +14,5 @@
 14. SOLID Principles with examples.
 15. "is" keyword in Python. https://stackoverflow.com/a/133024/5353128
 16. What are list comprehension in Python? https://stackoverflow.com/a/34835952/5353128
-17. What is the difference between tuple and list in Python?
+17. What is the difference between tuple and list in Python? https://stackoverflow.com/q/626759/5353128
 18. 
