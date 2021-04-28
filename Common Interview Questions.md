@@ -30,4 +30,5 @@
 28. What are some API authentication techniques? https://blog.bearer.sh/the-three-most-common-api-authentication-methods/
 29. What API authentication mechanism did you use in your project?
 30. What is CAP theorem? http://ksat.me/a-plain-english-introduction-to-cap-theorem
-31. 
+31. How would you model your data for MongoDB? Refere all 3 parts: https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1
+32. 
