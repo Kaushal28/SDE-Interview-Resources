@@ -29,4 +29,5 @@
 27. What is database sharding? https://docs.mongodb.com/manual/sharding/
 28. What are some API authentication techniques? https://blog.bearer.sh/the-three-most-common-api-authentication-methods/
 29. What API authentication mechanism did you use in your project?
-30. 
+30. What is CAP theorem? http://ksat.me/a-plain-english-introduction-to-cap-theorem
+31. 
