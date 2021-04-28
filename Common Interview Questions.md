@@ -27,4 +27,5 @@
 25. Is Python pass by value/by reference? https://stackoverflow.com/q/3949310/5353128
 26. What is virtual environment and when would you use it? https://stackoverflow.com/q/41972261/5353128
 27. What is database sharding? https://docs.mongodb.com/manual/sharding/
-28. 
+28. What are some API authentication techniques? https://blog.bearer.sh/the-three-most-common-api-authentication-methods/
+29. 
