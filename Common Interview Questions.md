@@ -31,4 +31,5 @@
 29. What API authentication mechanism did you use in your project?
 30. What is CAP theorem? http://ksat.me/a-plain-english-introduction-to-cap-theorem
 31. How would you model your data for MongoDB? Refere all 3 parts: https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1
-32. 
+32. What is the meaning of REST in REST APIs? https://stackoverflow.com/a/4664013/5353128
+33. What is reverse proxy? https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/
