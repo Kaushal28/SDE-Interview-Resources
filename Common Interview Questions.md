@@ -33,3 +33,5 @@
 31. How would you model your data for MongoDB? Refere all 3 parts: https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1
 32. What is the meaning of REST in REST APIs? https://stackoverflow.com/a/4664013/5353128
 33. What is reverse proxy? https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/
+34. What is the difference between horizontal vs vertical scaling? How to achieve them while using MongoDB? https://stackoverflow.com/q/11707879/5353128, https://www.mongodb.com/basics/scaling
+35. What is the difference between microservice and monolith architectures? When to choose which architecture? https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/, https://stackoverflow.com/q/46575898/5353128
