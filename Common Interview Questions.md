@@ -35,3 +35,5 @@
 33. What is reverse proxy? https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/
 34. What is the difference between horizontal and vertical scaling? How to achieve them while using MongoDB? https://stackoverflow.com/q/11707879/5353128, https://www.mongodb.com/basics/scaling
 35. What is the difference between microservice and monolithic architectures? When to choose which architecture? https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/, https://stackoverflow.com/q/46575898/5353128
+36. What are abstract classes and how would you implement one in Python? https://stackoverflow.com/q/13646245/5353128
+37. What are websockets? https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/ 
