@@ -37,3 +37,6 @@
 35. What is the difference between microservice and monolithic architectures? When to choose which architecture? https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/, https://stackoverflow.com/q/46575898/5353128
 36. What are abstract classes and how would you implement one in Python? https://stackoverflow.com/q/13646245/5353128
 37. What are websockets? When are they used? https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/, https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/
+38. What is the public key cryptography? What are SSL/TLS certificates? https://www.cloudflare.com/en-in/learning/ssl/how-does-public-key-encryption-work/
+39. What are webhooks? When would you use them? Webhooks are callbacks: https://codeburst.io/what-are-webhooks-b04ec2bf9ca2
+40. 
