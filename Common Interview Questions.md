@@ -39,5 +39,5 @@
 37. What are websockets? When are they used? https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/, https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/
 38. What is the public key cryptography? What are SSL/TLS certificates? https://www.cloudflare.com/en-in/learning/ssl/how-does-public-key-encryption-work/
 39. What are webhooks? When would you use them? Webhooks are callbacks: https://codeburst.io/what-are-webhooks-b04ec2bf9ca2
-40. How would you store graph like data structure in relational/SQL database? For example how would you store and query facebook friends? One possible approach: https://stackoverflow.com/a/46998724/5353128
+40. How would you store graph like data structure in relational/SQL database? For example how would you store and query facebook friends? One possible approach: https://stackoverflow.com/a/46998724/5353128, https://stackoverflow.com/a/20304574/5353128
 41. 
