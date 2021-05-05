@@ -41,3 +41,6 @@
 39. What are webhooks? When would you use them? Webhooks are callbacks: https://codeburst.io/what-are-webhooks-b04ec2bf9ca2
 40. How would you store graph like data structure in relational/SQL database? For example how would you store and query facebook friends? One possible approach: https://stackoverflow.com/a/46998724/5353128, https://stackoverflow.com/a/20304574/5353128
 41. What happens when you type a URL in your browser and press enter? https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+42. How TCP connection is established? How 3 way handshake works in TCP? https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+43. What is the difference between TCP, UDP? What is TLS over TCP? https://stackoverflow.com/q/5970383/5353128, For TLS: https://security.stackexchange.com/q/5126/94263
+44. 
