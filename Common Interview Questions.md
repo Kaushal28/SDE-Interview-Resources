@@ -40,4 +40,4 @@
 38. What is the public key cryptography? What are SSL/TLS certificates? https://www.cloudflare.com/en-in/learning/ssl/how-does-public-key-encryption-work/
 39. What are webhooks? When would you use them? Webhooks are callbacks: https://codeburst.io/what-are-webhooks-b04ec2bf9ca2
 40. How would you store graph like data structure in relational/SQL database? For example how would you store and query facebook friends? One possible approach: https://stackoverflow.com/a/46998724/5353128, https://stackoverflow.com/a/20304574/5353128
-41. 
+41. What happens when you type a URL in your browser and press enter? https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
