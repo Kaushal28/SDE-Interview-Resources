@@ -46,4 +46,9 @@
 44. How to scale reads and writes in MongoDB? https://docs.mongodb.com/manual/replication/, https://docs.mongodb.com/manual/sharding/
 45. What is the difference between `mongod` and `mongo`? https://stackoverflow.com/a/5490907/5353128
 46. What are linear and non linear data structures? Give a few examples of both: https://www.geeksforgeeks.org/difference-between-linear-and-non-linear-data-structures/
-47. 
+47. When would you usee array and when would you use linked list? https://stackoverflow.com/q/393556/5353128
+48. What is search time for binary search trees? What impacts the search performance in BSTs? How can you improve it? https://stackoverflow.com/q/526718/5353128
+49. What is general difference between a process and a thread? https://stackoverflow.com/q/200469/5353128
+50. What is a daemon thread? When would you use one in your application? https://stackoverflow.com/q/190010/5353128
+51. What is race condition? How would you prevent it? https://stackoverflow.com/q/34510/5353128
+52. 
