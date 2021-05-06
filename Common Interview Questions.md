@@ -44,4 +44,5 @@
 42. How TCP connection is established? How 3 way handshake works in TCP? https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
 43. What is the difference between TCP, UDP? What is TLS over TCP? https://stackoverflow.com/q/5970383/5353128, For TLS: https://security.stackexchange.com/q/5126/94263
 44. How to scale reads and writes in MongoDB? https://docs.mongodb.com/manual/replication/, https://docs.mongodb.com/manual/sharding/
-45. 
+45. What is the difference between `mongod` and `mongo`? https://stackoverflow.com/a/5490907/5353128
+46. 
