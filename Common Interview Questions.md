@@ -45,4 +45,5 @@
 43. What is the difference between TCP, UDP? What is TLS over TCP? https://stackoverflow.com/q/5970383/5353128, For TLS: https://security.stackexchange.com/q/5126/94263
 44. How to scale reads and writes in MongoDB? https://docs.mongodb.com/manual/replication/, https://docs.mongodb.com/manual/sharding/
 45. What is the difference between `mongod` and `mongo`? https://stackoverflow.com/a/5490907/5353128
-46. 
+46. What are linear and non linear data structures? Give a few examples of both: https://www.geeksforgeeks.org/difference-between-linear-and-non-linear-data-structures/
+47. 
