@@ -51,4 +51,7 @@
 49. What is general difference between a process and a thread? https://stackoverflow.com/q/200469/5353128
 50. What is a daemon thread? When would you use one in your application? https://stackoverflow.com/q/190010/5353128
 51. What is race condition? How would you prevent it? https://stackoverflow.com/q/34510/5353128
-52. 
+52. What are different types of semaphores? https://www.guru99.com/semaphore-in-operating-system.html
+53. What is deadlock? https://stackoverflow.com/q/34512/5353128
+54. What is an SQL injection? 
+55. What is list comprehension in Python? 
