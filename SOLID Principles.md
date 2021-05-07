@@ -72,7 +72,7 @@ class HTMLPrinter(Printer):
 <p align="center"><img src="https://i.imgur.com/0RZcEgl.jpg" width="550" height="550"></p>
 
 - Software entities (classes, functions, modules etc.) should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
-- Entities should be designed in such a way that when a new functionality is needed, we should not modify our existing code but rather write new code that will be used by existing code.
+- Entities should be designed in such a way that when a new functionality is needed, we should not modify our existing code but rather write new code that will be used by existing code. (Thus, an open chest surgery is not needed when putting on a coat!)
 - Consider an example of shape classes and their area calculator class.
 
 ```python
