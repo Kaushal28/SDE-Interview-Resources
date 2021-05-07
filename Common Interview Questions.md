@@ -63,6 +63,7 @@ for i in range(10):
   print(i)
 ```
 This will print 1 to 10 because the range of the for loop in python depends on the length of `range()` function unlike Java or C where the iterator variable determines the length of the loop. Here i will be overwritten every time.
+
 58. What will be the output of the following python code?
 ```python
 def to_append(ele, to=[])
@@ -74,5 +75,6 @@ print(to_append(42))
 ```
 
 This would print `[12]` and `[12, 42]` because default values are binded at the time of function definition instead of function execution in python. Here are the references: https://stackoverflow.com/q/1132941/5353128
+
 59. 
 
