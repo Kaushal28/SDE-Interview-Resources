@@ -76,5 +76,5 @@ print(to_append(42))
 
 This would print `[12]` and `[12, 42]` because default values are evaluated at the time of function definition instead of function execution in python. Here are the references: https://stackoverflow.com/q/1132941/5353128, https://web.archive.org/web/20200221224620/http://effbot.org/zone/default-values.htm
 
-59. 
+59. What are chained assignments in Python? https://stackoverflow.com/q/7601823/5353128
 
