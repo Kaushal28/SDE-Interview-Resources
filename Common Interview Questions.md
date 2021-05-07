@@ -54,4 +54,25 @@
 52. What are different types of semaphores? https://www.guru99.com/semaphore-in-operating-system.html
 53. What is deadlock? https://stackoverflow.com/q/34512/5353128
 54. What is an SQL injection? 
-55. What is list comprehension in Python? 
+55. What is list comprehension in Python?
+56. What is ordered dict in Python? https://stackoverflow.com/q/39980323/5353128
+57. What will be the output of the following python code?
+```python
+for i in range(10):
+  i += 1
+  print(i)
+```
+This will print 1 to 10 because the range of the for loop in python depends on the length of `range()` function unlike Java or C where the iterator variable determines the length of the loop. Here i will be overwritten every time.
+58. What will be the output of the following python code?
+```python
+def to_append(ele, to=[])
+  to.append(ele)
+  return to
+
+print(to_append(12))
+print(to_append(42))
+```
+
+This would print `[12]` and `[12, 42]` because default values are binded at the time of function definition instead of function execution in python. Here are the references: https://stackoverflow.com/q/1132941/5353128
+59. 
+
