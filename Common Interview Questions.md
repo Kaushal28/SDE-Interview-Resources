@@ -77,4 +77,9 @@ print(to_append(42))
 This would print `[12]` and `[12, 42]` because default values are evaluated at the time of function definition instead of function execution in python. Here are the references: https://stackoverflow.com/q/1132941/5353128, https://web.archive.org/web/20200221224620/http://effbot.org/zone/default-values.htm
 
 59. What are chained assignments in Python? https://stackoverflow.com/q/7601823/5353128
+60. What is the difference between `RUN` and `CMD` in dockerfile?  https://stackoverflow.com/a/45137770/5353128
+61. Difference between `git pull` and `git fetch`?  https://stackoverflow.com/a/292359/5353128
+62. Difference between `git merge` and `git rebase`? https://stackoverflow.com/a/16666418/5353128
+63. What is page fault in OS? https://stackoverflow.com/a/6950601/5353128
+64. 
 
