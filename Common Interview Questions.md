@@ -82,5 +82,14 @@ This would print `[12]` and `[12, 42]` because default values are evaluated at t
 62. Difference between `git merge` and `git rebase`? https://stackoverflow.com/a/16666418/5353128
 63. What is page fault in OS? https://stackoverflow.com/a/6950601/5353128
 64. What objectID in MongoDB consists of? https://stackoverflow.com/questions/7327296/how-do-i-extract-the-created-date-out-of-a-mongo-objectid/7327859
-65. 
+65. Write a Python class that acts exactly as list but never gives IndexOutOfBounds error (circular list).
 
+```python
+class cList(list):
+    def __init__(self, lst):
+        self.lst = lst
+    def __getitem__(self, index):
+        return super().__getitem__(index%len(self.lst))
+```
+
+66. 
