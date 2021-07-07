@@ -15,7 +15,7 @@
   - Read balance from Account A
   - Update A's balance
   - Update B's balance
-- If transactions were not atomic, they can fail at any of the steps, which leads database into inconsistent state. Atomicity ensures that either all 3 steps execute successfully or none of them. This prevents inconsistent state in database (for example amount debited from A but not creditede in B's account). Transaction failers are easier to handle (e.g. by retrying) than inconsistencies.
+- If transactions were not atomic, they can fail at any of the steps, which leads database into inconsistent state. Atomicity ensures that either all 3 steps execute successfully or none of them. This prevents inconsistent state in database (for example amount debited from A but not creditede in B's account). Transaction failuers are easier to handle (e.g. by retrying) than inconsistencies.
 
 ## Consistency
 
