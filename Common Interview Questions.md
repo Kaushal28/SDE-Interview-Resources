@@ -54,7 +54,7 @@
 52. What are different types of semaphores? https://www.guru99.com/semaphore-in-operating-system.html
 53. What is deadlock? https://stackoverflow.com/q/34512/5353128
 54. What is an SQL injection? 
-55. What is list comprehension in Python?
+55. What is list comprehension in Python? What are it's advantages over regular `for` loop? https://stackoverflow.com/a/16341841/5353128
 56. What is ordered dict in Python? https://stackoverflow.com/q/39980323/5353128
 57. What will be the output of the following python code?
 ```python
@@ -92,4 +92,4 @@ class cList(list):
         return super().__getitem__(index%len(self.lst))
 ```
 
-66. 
+66. Database joins with examples.
