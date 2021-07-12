@@ -92,4 +92,4 @@ class cList(list):
         return super().__getitem__(index%len(self.lst))
 ```
 
-66. Database joins with examples.
+66. Database joins with examples: https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
