@@ -93,3 +93,4 @@ class cList(list):
 ```
 
 66. Database joins with examples: https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
+67. Types of database indexes: Primary and secondary: https://stackoverflow.com/a/20825201/5353128
