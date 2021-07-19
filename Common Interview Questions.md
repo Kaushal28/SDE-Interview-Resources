@@ -95,3 +95,4 @@ class cList(list):
 66. Database joins with examples: https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/, https://stackoverflow.com/q/38549/5353128
 67. Types of database indexes: Primary and secondary: https://stackoverflow.com/a/20825201/5353128
 68. Various kind of keys in relational database: https://stackoverflow.com/a/6699670/5353128
+69. Difference between Celery and RabbitMQ? Why we need celery at all? https://stackoverflow.com/q/9077687/5353128
