@@ -92,5 +92,5 @@ class cList(list):
         return super().__getitem__(index%len(self.lst))
 ```
 
-66. Database joins with examples: https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
+66. Database joins with examples: https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/, https://stackoverflow.com/q/38549/5353128
 67. Types of database indexes: Primary and secondary: https://stackoverflow.com/a/20825201/5353128
