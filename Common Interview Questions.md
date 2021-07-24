@@ -96,3 +96,6 @@ class cList(list):
 67. Types of database indexes: Primary and secondary: https://stackoverflow.com/a/20825201/5353128
 68. Various kind of keys in relational database: https://stackoverflow.com/a/6699670/5353128
 69. Difference between Celery and RabbitMQ? Why we need celery at all? https://stackoverflow.com/q/9077687/5353128
+70. Is multiple inheritance supported by Python? What's the problem with multiple inheritance? https://www.residentmar.io/2019/07/07/python-mixins.html
+71. What is Mixin class in Python? https://www.residentmar.io/2019/07/07/python-mixins.html
+72. Map, reduce and filter in Python.
