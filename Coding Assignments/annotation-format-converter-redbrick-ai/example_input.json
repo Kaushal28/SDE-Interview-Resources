@@ -1,0 +1,160 @@
+{
+  "taxonomy": {
+    "name": "basicTaxonomy",
+    "version": 1,
+    "attributes": [],
+    "categories": [
+      {
+        "name": "object",
+        "children": [
+          { "name": "car", "classId": 0, "children": [] },
+          { "name": "dog", "classId": 1, "children": [] }
+        ]
+      }
+    ]
+  },
+  "datapoints": [
+    {
+      "name": "Cars-img004",
+      "dpId": "1aa",
+      "items": [
+        "https://tesla-cdn.thron.com/delivery/public/image/tesla/35d15221-0a5f-4dce-b484-a4db67b81dd2/bvlatuR/std/0x0/model-s@2x"
+      ],
+      "labels": [
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.2235044480755265,
+            "ynorm": 0.3399854651162791,
+            "hnorm": 0.33372093023255817,
+            "wnorm": 0.5657225853304285
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars-img005",
+      "dpId": "2bb",
+      "items": [
+        "https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg"
+      ],
+      "labels": [
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.2852328431372549,
+            "ynorm": 0.2716133720930233,
+            "hnorm": 0.4197674418604651,
+            "wnorm": 0.43209876543209874
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars-img006",
+      "dpId": "3cc",
+      "items": ["https://s3-prod.autonews.com/s3fs-public/4MODELS-MAIN_i.jpg"],
+      "labels": [
+        {
+          "category": [["object", "dog"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.06518927015250545,
+            "ynorm": 0.1662580977620731,
+            "hnorm": 0.7067137809187279,
+            "wnorm": 0.8663761801016703
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars-img002",
+      "dpId": "4dd",
+      "items": [
+        "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/hero-carousel/wall-connector-gen3.jpg"
+      ],
+      "labels": [
+        {
+          "category": [["object", "dog"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.1806576797385621,
+            "ynorm": 0.4850743348982786,
+            "hnorm": 0.4084507042253521,
+            "wnorm": 0.6216412490922295
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars-img001",
+      "dpId": "5ee",
+      "items": [
+        "https://www.teslarati.com/wp-content/uploads/2020/03/tesla-model-3-scaled.jpg"
+      ],
+      "labels": [
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.30349109877488517,
+            "ynorm": 0.2603376436781609,
+            "hnorm": 0.4839080459770115,
+            "wnorm": 0.5199081163859112
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cars-img003",
+      "dpId": "6ff",
+      "items": [
+        "https://www.gannett-cdn.com/-mm-/8ca1632e258bc6bf9df10d2847c97a84534e2a54/c=98-0-2402-1296/local/-/media/2020/05/08/USATODAY/usatsports/why-tesla-stock-is-up-on-friday.jpg?width=2304&height=1296&fit=crop&format=pjpg&auto=webp"
+      ],
+      "labels": [
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.078,
+            "ynorm": 0.541,
+            "hnorm": 0.148,
+            "wnorm": 0.162
+          }
+        },
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.319,
+            "ynorm": 0.53,
+            "hnorm": 0.165,
+            "wnorm": 0.149
+          }
+        },
+        {
+          "category": [["object", "dog"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.554,
+            "ynorm": 0.544,
+            "hnorm": 0.151,
+            "wnorm": 0.141
+          }
+        },
+        {
+          "category": [["object", "car"]],
+          "attributes": [],
+          "bbox2d": {
+            "xnorm": 0.755,
+            "ynorm": 0.535,
+            "hnorm": 0.155,
+            "wnorm": 0.162
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "images": [
+    {
+      "id": 0,
+      "file_name": "https://tesla-cdn.thron.com/delivery/public/image/tesla/35d15221-0a5f-4dce-b484-a4db67b81dd2/bvlatuR/std/0x0/model-s@2x",
+      "height": 1800,
+      "width": 2880
+    },
+    {
+      "id": 1,
+      "file_name": "https://www.tesla.com/sites/default/files/model3-new/social/model-3-hero-social.jpg",
+      "height": 900,
+      "width": 1440
+    },
+    {
+      "id": 2,
+      "file_name": "https://s3-prod.autonews.com/s3fs-public/4MODELS-MAIN_i.jpg",
+      "height": 740,
+      "width": 1200
+    },
+    {
+      "id": 3,
+      "file_name": "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/hero-carousel/wall-connector-gen3.jpg",
+      "height": 650,
+      "width": 1400
+    },
+    {
+      "id": 4,
+      "file_name": "https://www.teslarati.com/wp-content/uploads/2020/03/tesla-model-3-scaled.jpg",
+      "height": 1706,
+      "width": 2560
+    },
+    {
+      "id": 5,
+      "file_name": "https://www.gannett-cdn.com/-mm-/8ca1632e258bc6bf9df10d2847c97a84534e2a54/c=98-0-2402-1296/local/-/media/2020/05/08/USATODAY/usatsports/why-tesla-stock-is-up-on-friday.jpg?width=2304&height=1296&fit=crop&format=pjpg&auto=webp",
+      "height": 1296,
+      "width": 2304
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        643.6928104575163,
+        611.9738372093024,
+        1629.281045751634,
+        600.6976744186047
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        410.735294117647,
+        244.45203488372096,
+        622.2222222222222,
+        377.7906976744186
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        78.22712418300654,
+        123.03099234393409,
+        1039.6514161220043,
+        522.9681978798586
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        252.92075163398692,
+        315.2983176838811,
+        870.2977487291213,
+        265.4929577464789
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 4,
+      "image_id": 4,
+      "category_id": 0,
+      "bbox": [
+        776.937212863706,
+        444.13602011494254,
+        1330.9647779479326,
+        825.5471264367816
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 0,
+      "bbox": [
+        179.712,
+        701.1360000000001,
+        373.248,
+        191.808
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 6,
+      "image_id": 5,
+      "category_id": 0,
+      "bbox": [
+        734.976,
+        686.88,
+        343.296,
+        213.84
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 7,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        1276.4160000000002,
+        705.024,
+        324.864,
+        195.696
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "id": 8,
+      "image_id": 5,
+      "category_id": 0,
+      "bbox": [
+        1739.52,
+        693.36,
+        373.248,
+        200.88
+      ],
+      "iscrowd": 0,
+      "segmentation": []
+    }
+  ],
+  "categories": [
+    {
+      "name": "car",
+      "id": 0
+    },
+    {
+      "name": "dog",
+      "id": 1
+    }
+  ]
+}
