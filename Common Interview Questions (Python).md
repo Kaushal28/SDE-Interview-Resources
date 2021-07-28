@@ -99,3 +99,4 @@ class cList(list):
 70. Is multiple inheritance supported by Python? What's the problem with multiple inheritance? https://www.residentmar.io/2019/07/07/python-mixins.html
 71. What is Mixin design pattern in Python? https://www.residentmar.io/2019/07/07/python-mixins.html, Example: https://codereview.stackexchange.com/a/264278/106796
 72. Lambda functions and map, reduce and filter in Python: https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/
+73. Linux file system: https://www.linux.com/training-tutorials/linux-filesystem-explained/
